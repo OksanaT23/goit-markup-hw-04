@@ -258,6 +258,16 @@ img {
 .features-list-item {
   width: calc((100% - 72px) / 4);
 }
+.features-list-item .icon {
+  padding: 24px;
+  background: var(--secondary-text-color-2);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.features-list-item .icon svg {
+  height: 64px;
+  width: 100%;
+}
 
 /* Services */
 .services-options {
