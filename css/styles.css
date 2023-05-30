@@ -216,7 +216,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--the-main-color-of-the-text);
 }
-
+/* Social-icons */
+.social-icons {
+}
 /* Order Service */
 .order-service {
   background-color: var(--secondary-text-color-1);
@@ -331,6 +333,22 @@ img {
 .member-info {
   padding: 32px 16px;
   text-align: center;
+}
+
+/* Customers */
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+.customers-list-item {
+  padding: 16px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+.customers-list-item .icon svg {
+  width: 100%;
+  height: 56px;
+  fill: #8e8f99;
 }
 /* Filters */
 .filters-list {
