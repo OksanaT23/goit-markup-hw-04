@@ -221,7 +221,8 @@ img {
 .order-service {
   background-color: var(--secondary-text-color-1);
   background-image: url("../images/hero.jpg");
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
