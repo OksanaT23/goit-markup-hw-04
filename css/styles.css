@@ -116,6 +116,10 @@ img {
   padding: 12px 24px;
   border: 1px solid var(--button-background);
 }
+.secondary:hover {
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .active:hover {
   border: 1px solid transparent;
 }
@@ -219,9 +223,11 @@ img {
 /* Social-icons */
 .social-icons {
   display: flex;
+  gap: 24px;
   justify-content: space-around;
 }
 .social-icons-link {
+  text-align: center;
   display: block;
   width: 40px;
   height: 40px;
@@ -426,4 +432,15 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
+}
+.footer-title {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--button-text-color);
+  margin-bottom: 16px;
+}
+.footer-blocks {
+  display: flex;
+  gap: 50px;
 }
