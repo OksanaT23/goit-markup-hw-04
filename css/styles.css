@@ -218,7 +218,22 @@ img {
 }
 /* Social-icons */
 .social-icons {
+  display: flex;
+  justify-content: space-around;
 }
+.social-icons-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: #4d5ae5;
+}
+.social-icons svg {
+  width: 16px;
+  height: 16px;
+  margin: 12px 0;
+}
+
 /* Order Service */
 .order-service {
   background-color: var(--secondary-text-color-1);
