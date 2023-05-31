@@ -236,6 +236,9 @@ img {
   border-radius: 20px;
   background: #4d5ae5;
 }
+.svg {
+  width: 64px;
+}
 .social-icons svg {
   width: 16px;
   height: 16px;
