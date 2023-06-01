@@ -241,6 +241,11 @@ svg {
   display: flex;
   align-items: center;
 }
+.icon:hover,
+.icon:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
 .social-icons {
   display: flex;
   gap: 24px;
@@ -260,6 +265,7 @@ svg {
 
 .svg-icon {
   fill: var(--secondary-text-color-2);
+  fill: currentColor;
 }
 
 .social-icons-link:hover,
