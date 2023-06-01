@@ -347,6 +347,9 @@ svg {
   height: 64px;
   width: 100%;
 }
+.features-container {
+  height: 112px;
+}
 
 /* Services */
 .services-options {
