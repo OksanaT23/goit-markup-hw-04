@@ -36,8 +36,14 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
 }
+
 img {
   display: block;
+  background-color: var(--accent-color);
+}
+svg {
+  width: 64px;
+  height: 64px;
 }
 
 .section {
@@ -248,13 +254,11 @@ img {
   align-items: center;
   justify-content: center;
 }
-svg {
-  width: 64px;
-  height: 64px;
-}
+
 .svg-icon {
   fill: var(--secondary-text-color-2);
 }
+
 .social-icons-link svg:hover {
   background-color: #404bbf;
 }
