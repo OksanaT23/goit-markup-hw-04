@@ -224,6 +224,12 @@ img {
   color: var(--the-main-color-of-the-text);
 }
 /* Social-icons */
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+}
 .social-icons {
   display: flex;
   gap: 24px;
@@ -239,6 +245,7 @@ img {
 }
 .svg {
   width: 64px;
+  height: 64px;
 }
 .social-icons svg {
   width: 16px;
