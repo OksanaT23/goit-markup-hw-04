@@ -336,6 +336,7 @@ svg {
 }
 .features-list-item {
   width: calc((100% - 72px) / 4);
+  height: 112px;
 }
 .features-list-item .icon {
   padding: 24px;
