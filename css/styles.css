@@ -241,7 +241,7 @@ svg {
 .social-icons {
   display: flex;
   gap: 24px;
-  justify-content: space-around;
+  justify-content: center;
 }
 .social-icons-link {
   text-align: center;
