@@ -248,7 +248,7 @@ svg {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background: hsl(235, 75%, 60%);
+  background: var(--accent-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -259,11 +259,14 @@ svg {
   fill: var(--secondary-text-color-2);
 }
 
-.social-icons-link svg:hover {
+.social-icons-lins:hover {
   background-color: #404bbf;
 }
-.social-icons-link svg:focus {
+.social-icons-link:focus {
   background-color: #404bbf;
+}
+.svg-social {
+  fill: #f4f4fd;
 }
 .social-icons svg {
   width: 16px;
