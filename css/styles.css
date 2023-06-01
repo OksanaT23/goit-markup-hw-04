@@ -64,7 +64,6 @@ svg {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
 }
 .container-projects {
   padding: 32px 16px;
@@ -276,16 +275,17 @@ svg {
 /* Order Service */
 .order-service {
   background-color: var(--secondary-text-color-1);
-  background-image: url("../images/hero.jpg");
   background-repeat: no-repeat;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-name.jpeg);
+    url("../images/hero.jpg");
   background-position: center;
   background-size: cover;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .order-service .order-container {
@@ -318,6 +318,9 @@ svg {
 }
 
 /* Features */
+.feature {
+  display: flex;
+}
 .feature-text {
   font-size: 16px;
   line-height: 1.5;
