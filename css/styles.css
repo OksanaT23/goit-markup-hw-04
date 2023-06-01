@@ -259,9 +259,7 @@ svg {
   fill: var(--secondary-text-color-2);
 }
 
-.social-icons-lins:hover {
-  background-color: #404bbf;
-}
+.social-icons-link:hover,
 .social-icons-link:focus {
   background-color: #404bbf;
 }
