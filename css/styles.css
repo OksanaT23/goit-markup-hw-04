@@ -260,7 +260,7 @@ svg {
 }
 
 .social-icons-link:hover,
-.social-icons-link:visited,
+.social-icons-link:active,
 .social-icons-link:focus {
   background-color: #404bbf;
 }
@@ -284,8 +284,6 @@ svg {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/img-name.jpeg);
-  max-width: 1440px;
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
