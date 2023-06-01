@@ -438,7 +438,7 @@ svg {
   color: var(--accent-color);
   background-color: var(--secondary-text-color-2);
 }
-.filters-list-item .active,
+.filters-list-item.item-active .button,
 .filters-list-item .button:hover,
 .filters-list-item .button:focus {
   color: var(--button-text-color);
