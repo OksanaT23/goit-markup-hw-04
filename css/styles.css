@@ -391,6 +391,11 @@ svg {
 }
 
 /* Customers */
+.customers {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--secondary-text-color-1);
+}
 .customers-list {
   display: flex;
   gap: 24px;
@@ -399,6 +404,8 @@ svg {
   padding: 16px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 .customers-list-item .icon svg {
   width: 100%;
