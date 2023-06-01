@@ -284,7 +284,7 @@ svg {
     url("../images/hero.jpg");
   background-position: center;
   background-size: cover;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
