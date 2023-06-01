@@ -137,6 +137,8 @@ img {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
 }
 
 .subtitle {
@@ -392,8 +394,6 @@ svg {
 
 /* Customers */
 .customers {
-  font-size: 36px;
-  line-height: 1.11;
   color: var(--secondary-text-color-1);
 }
 .customers-list {
