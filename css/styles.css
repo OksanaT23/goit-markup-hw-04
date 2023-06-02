@@ -260,15 +260,13 @@ svg {
   align-items: center;
   justify-content: center;
 }
-
-.svg-icon {
-  fill: var(--secondary-text-color-2);
-}
-
 .social-icons-link:hover,
 .social-icons-link:active,
 .social-icons-link:focus {
   background-color: #31d0aa;
+}
+.svg-icon {
+  fill: var(--secondary-text-color-2);
 }
 
 .social-icons svg {
