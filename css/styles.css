@@ -264,7 +264,6 @@ svg {
 
 .svg-icon {
   fill: var(--secondary-text-color-2);
-  fill: currentColor;
 }
 
 .social-icons-link:hover,
