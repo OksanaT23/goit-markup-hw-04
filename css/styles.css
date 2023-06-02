@@ -427,7 +427,7 @@ svg {
 .customers-list-item .icon svg {
   width: 100%;
   height: 56px;
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 /* Filters */
