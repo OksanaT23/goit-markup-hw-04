@@ -254,7 +254,6 @@ svg {
   text-align: center;
   width: 40px;
   height: 40px;
-  border-radius: 20px;
   background: var(--accent-color);
   border-radius: 50%;
   display: flex;
@@ -269,7 +268,6 @@ svg {
 .social-icons-link:hover,
 .social-icons-link:active,
 .social-icons-link:focus {
-  background-color: #404bbf;
   background-color: #31d0aa;
 }
 
