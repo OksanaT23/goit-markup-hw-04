@@ -7,9 +7,9 @@
   /* Акцент - Accent color #4D5AE5 */
   /* Link-active: #404bbf */
   /* Button-text-color: #FFFFFF */
+  /* Color-item: #8e8f99;
   /* Задній фон основний - The background is basic #E5E5E5 */
   /* Задній фон вторинний - The background is secondary #2E2F42 */
-  /* Колір іконки - color-icon #8e8f99;
 
   --button-background: #e7e9fc;
   --the-main-color-of-the-text: #434455;
@@ -237,7 +237,7 @@ svg {
   justify-content: center;
   width: 100%;
   height: 100%;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--color-icon: #8e8f99);
   border-radius: 4px;
   display: flex;
   align-items: center;
