@@ -263,9 +263,9 @@ svg {
   align-items: center;
   justify-content: center;
 }
-.social-icons-link:hover,
-.social-icons-link:active,
-.social-icons-link:focus {
+.social-icon .social-icons-link:hover,
+.social-icon .social-icons-link:active,
+.social-icon .social-icons-link:focus {
   background-color: #404bbf;
 }
 .social-icons-link:hover,
