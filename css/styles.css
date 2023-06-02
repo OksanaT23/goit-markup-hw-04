@@ -512,8 +512,6 @@ svg {
   align-items: baseline;
 }
 .footer-container {
-  display: flex;
-  align-items: baseline;
   margin-right: 120px;
 }
 .footer-list {
