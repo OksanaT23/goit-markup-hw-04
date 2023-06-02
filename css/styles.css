@@ -271,6 +271,7 @@ svg {
 .social-icons-link:active,
 .social-icons-link:focus {
   background-color: #404bbf;
+  background-color: #31d0aa;
 }
 .svg-social {
   fill: #f4f4fd;
@@ -516,7 +517,7 @@ svg {
 }
 .footer-list {
   display: flex;
-  gap: 16;
+  gap: 16px;
 }
 .footer-list-item {
   width: 40px;
