@@ -411,6 +411,10 @@ svg {
   display: flex;
   gap: 24px;
 }
+.customers-list .icon:hover,
+.customers-list .icon:focus {
+  border-color: #404bbf;
+}
 .customers-list-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
