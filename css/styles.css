@@ -96,7 +96,6 @@ svg {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -116,12 +115,12 @@ svg {
 }
 
 .secondary {
-  height: 48px;
   padding: 12px 24px;
-  border: 1px solid var(--button-background);
+  border: 1px solid #e7e9fc;
+  color: var(--accent-color);
+  background-color: var(--secondary-text-color-2);
 }
 .secondary:hover {
-  background-repeat: no-repeat;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .active:hover {
@@ -314,6 +313,7 @@ svg {
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Features */
@@ -412,9 +412,7 @@ svg {
   gap: 24px;
 }
 .customers-list .icon:hover,
-.customers-list .icon:focus {
-  border-color: #404bbf;
-}
+.customers-list .icon:focus,
 .customers-list-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
@@ -439,14 +437,9 @@ svg {
   justify-content: center;
   margin-bottom: 72px;
 }
-.filters-list-item .button {
-  color: var(--accent-color);
-  background-color: var(--secondary-text-color-2);
-  box-shadow: none;
-}
-.filters-list-item.item-active .button,
-.filters-list-item .button:hover,
-.filters-list-item .button:focus {
+.item-active .button,
+.button:hover,
+.button:focus {
   color: var(--button-text-color);
   background-color: var(--link-active);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
